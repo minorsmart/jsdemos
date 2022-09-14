@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Our Funky HTML Page</title>
+		<meta name="description" content="Our first page" />
+		<meta name="keywords" content="html tutorial template" />
+	</head>
+	<body>
+		<div id="voor">Witek</div>
+		<div id="achter">ten Hove</div>
+		<div id="naam">......</div>
+		<hr />
+		<div id="a">2</div>
+		<div id="b">4</div>
+		<div id="c">......</div>
+		<script>
+			let voor = document.getElementById("voor").innerText;
+			let achter = document.getElementById("achter").innerText;
+			let naam = voor + " " + achter;
+			document.getElementById("naam").innerHTML = naam;
+
+			let a = document.getElementById("a").innerText;
+			let b = document.getElementById("b").innerText;
+			let c = Number(a) + Number(b);
+			document.getElementById("c").innerHTML = c;
+		</script>
+	</body>
+</html>
