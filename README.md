@@ -5,3 +5,4 @@ Here are some simple examples of using JS:
 - [mouseover](https://minorsmart.github.io/jsdemos/mouseover/)
 - [quiz](https://minorsmart.github.io/jsdemos/quiz/)
 - [timeline](https://minorsmart.github.io/jsdemos/timeline/)
+- [game](https://minorsmart.github.io/jsdemos/game/)
